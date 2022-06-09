@@ -13,3 +13,6 @@
 
 ## 로그인 처리하기 - 서블릿 HTTP 세션2
 * @SessionAttribute를 통해 value가져오기
+
+## 세션 정보와 타임 아웃 설정
+* properties 혹은 코드상에 세션만료 interval 설정 가능
