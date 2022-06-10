@@ -33,3 +33,6 @@
 ## 스프링 인터셉터 - 소개
 * 요청 -> WAS -> 필터 -> 서블릿 -> 스프링 인터셉터 -> 컨트롤러
 * preHandle, postHandle, afterCompletion 메소드
+
+## ArgumentResolver 활용
+* supportsParameter, resolveArgument 과 커스텀 어노테이션을 통해 인터셉터 대체
