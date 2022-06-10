@@ -20,4 +20,8 @@
 ## 서블릿 필터 - 소개
 * 서블릿에 넘어가기 전에 제한, 수행등이 가능한 필터
 
-
+## 서블릿 필터 = 요청 로그
+* Filter를 상속받아 init(), doFilter(), destroy() 구현
+* UUID로 요청별 구분 가능
+* chain.doFilter() 없으면 다음 필터, 서블릿으로 넘어가지 않음
+* WebConfig에서 Filter 등록
