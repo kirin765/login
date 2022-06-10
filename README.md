@@ -29,3 +29,7 @@
 ## 서블릿 필터 - 인증 체크
 * 요청 -> WAS -> 필터1 -> 필터2 -> 서블릿 -> 컨트롤러 -> 서블릿 -> 필터2 ...
 * @RequestParam으로 redirectURL 넘겨주어 로그인 후 다시 돌아올 수 있음
+
+## 스프링 인터셉터 - 소개
+* 요청 -> WAS -> 필터 -> 서블릿 -> 스프링 인터셉터 -> 컨트롤러
+* preHandle, postHandle, afterCompletion 메소드
